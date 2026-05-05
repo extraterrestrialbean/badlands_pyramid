@@ -1,0 +1,15 @@
+{
+    "name": "badlandspyramid:badlands_well_start",
+    "fallback": "minecraft:empty",
+    "elements": [
+      {
+        "weight": 1,
+        "element": {
+          "location": "badlandspyramid:badlands_pyramid/badlands_well",
+          "processors": "minecraft:empty",
+          "projection": "rigid",
+          "element_type": "minecraft:single_pool_element"
+        }
+      }
+    ]
+  }  

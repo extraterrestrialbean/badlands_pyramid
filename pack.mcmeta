@@ -1,0 +1,7 @@
+{
+    "pack": {
+        "description": "§6Adds Badlands Pyramids to Minecraft.",
+        "min_format": [88,0],
+        "max_format": [101,1]
+    }
+}

@@ -1,0 +1,48 @@
+{
+    "parent": "badlandspyramid:badlands_pyramid/enter_all_pyramids",
+    "criteria": {
+      "enter_badlands_well": {
+        "conditions": {
+          "player": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "location": {
+                  "structures": "badlandspyramid:badlands_well"
+                }
+              }
+            }
+          ]
+        },
+        "trigger": "minecraft:location"
+      }
+    },
+    "display": {
+      "description": {
+        "text": "Find a Badlands Well"
+      },
+      "icon": {
+        "count": 1,
+        "id": "minecraft:water_bucket"
+      },
+      "title": {
+        "text": "Well, Well, Well"
+      },
+      "frame": "challenge",
+      "announce_to_chat": true,
+      "hidden": false,
+      "show_toast": true
+    },
+    "requirements": [
+      [
+        "enter_badlands_well"
+      ]
+    ],
+    "sends_telemetry_event": true,
+    "rewards": {
+      "recipes": [
+        "minecraft:custom/wither_skeleton_skull_crafting"
+      ]
+    }
+  }

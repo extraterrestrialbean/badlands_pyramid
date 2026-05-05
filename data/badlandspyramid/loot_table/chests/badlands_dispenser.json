@@ -1,0 +1,50 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "bonus_rolls": 0,
+            "entries": [
+                {
+                    "type": "item",
+                    "name":"tipped_arrow",
+                    "functions": [
+                        {
+                            "function": "set_potion",
+                            "id": "harming"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name":"tipped_arrow",
+                    "functions": [
+                        {
+                            "function": "set_potion",
+                            "id": "weakness"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name":"tipped_arrow",
+                    "functions": [
+                        {
+                            "function": "set_potion",
+                            "id": "long_weakness"
+                        }
+                    ]
+                }
+            ],
+            "functions": [
+                {
+                    "function": "set_count",
+                    "count": {
+                        "type": "uniform",
+                        "max": 85,
+                        "min": 50
+                    }
+                }
+            ]
+        }
+    ]
+}

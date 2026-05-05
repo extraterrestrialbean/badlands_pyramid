@@ -1,0 +1,86 @@
+{
+    "type": "minecraft:chest",
+    "pools": [
+      {
+        "rolls": 3,
+        "bonus_rolls": 2.5,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:bone",
+            "weight": 3
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:coal",
+            "weight": 3
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:gold_ingot",
+            "weight": 1
+          }
+        ],
+        "functions": [
+          {
+            "function": "minecraft:set_count",
+            "count": {
+              "type": "minecraft:uniform",
+              "min": 1,
+              "max": 13
+            }
+          }
+        ]
+      },
+      {
+        "rolls": 1,
+        "bonus_rolls": 0.5,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:golden_chestplate",
+            "functions": [
+              {
+                "function": "minecraft:set_enchantments",
+                "enchantments": {
+                  "fire_protection": {
+                    "type": "minecraft:uniform",
+                    "min": 0,
+                    "max": 2
+                  },
+                  "thorns": {
+                    "type": "minecraft:uniform",
+                    "min": 0,
+                    "max": 2
+                  }
+                }
+              },
+              {
+                "function": "minecraft:set_damage",
+                "damage": {
+                  "type": "minecraft:uniform",
+                  "min": 0.2,
+                  "max": 0.85
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "rolls": 0.5,
+        "bonus_rolls": 0.0,
+        "entries": [
+            {
+                "type": "item",
+                "name": "golden_apple"
+            },
+            {
+                "type": "item",
+                "name": "dune_armor_trim_smithing_template"
+            }
+        ]
+      }
+    ]
+  }
+  

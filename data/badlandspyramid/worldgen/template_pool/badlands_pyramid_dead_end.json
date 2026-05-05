@@ -1,0 +1,26 @@
+{
+  "name": "badlandspyramid:badlands_pyramid_start",
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 1,
+      "element": {
+        "location": "badlandspyramid:badlands_pyramid/dead_end1",
+        "processors": "minecraft:empty",
+        "override_liquid_settings": "ignore_waterlogging",
+		"projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "badlandspyramid:badlands_pyramid/dead_end2",
+        "processors": "minecraft:empty",
+        "override_liquid_settings": "ignore_waterlogging",
+		"projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    }
+  ]
+}

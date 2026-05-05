@@ -1,0 +1,44 @@
+{
+  "parent": "badlandspyramid:badlands_pyramid/enter_badlands_pyramid",
+  "criteria": {
+    "kill_hell_bovine": {
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type": "minecraft:cow",
+              "nbt": "{Tags: [\"Hell_Bovine\"]}"
+              
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:player_killed_entity"
+    }
+  },
+  "display": {
+    "description": {
+      "text": "There is no cow level"
+    },
+    "icon": {
+      "count": 1,
+      "id": "minecraft:beef"
+    },
+    "title": {
+      "text": "Secret Cow Level"
+    },
+    "hidden": true,
+    "frame": "challenge"
+  },
+  "requirements": [
+    [
+      "kill_hell_bovine"
+    ]
+  ],
+  "sends_telemetry_event": true,
+  "rewards": {
+    "experience": 55
+  }
+}

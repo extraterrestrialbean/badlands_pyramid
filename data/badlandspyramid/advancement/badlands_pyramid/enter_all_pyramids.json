@@ -1,0 +1,70 @@
+{
+    "parent": "badlandspyramid:badlands_pyramid/enter_badlands_pyramid",
+    "criteria": {
+      "enter_badlands_pyramid": {
+        "conditions": {
+          "player": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "location": {
+                  "structures": "badlandspyramid:badlands_pyramid"
+                }
+              }
+            }
+          ]
+        },
+        "trigger": "minecraft:location"
+      },
+      "enter_desert_pyramid": {
+        "conditions": {
+          "player": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "location": {
+                  "structures": "minecraft:desert_pyramid"
+                }
+              }
+            }
+          ]
+        },
+        "trigger": "minecraft:location"
+      },
+      "enter_jungle_pyramid": {
+        "conditions": {
+          "player": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "location": {
+                  "structures": "minecraft:jungle_pyramid"
+                }
+              }
+            }
+          ]
+        },
+        "trigger": "minecraft:location"
+      }
+    },
+    "display": {
+      "description": {
+        "text": "Tour all of the ancient pyramids"
+      },
+      "icon": {
+        "count": 1,
+        "id": "minecraft:chainmail_boots"
+      },
+      "title": {
+        "text": "Wonders of the World"
+      },
+      "frame": "goal"
+    },
+    "requirements": [
+        ["enter_badlands_pyramid"], ["enter_desert_pyramid"], ["enter_jungle_pyramid"]
+    ],
+    "sends_telemetry_event": true
+  }

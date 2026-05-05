@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "121",
+    "232",
+    "121"
+  ],
+  "key": {
+    "1": "minecraft:crying_obsidian",
+    "2": "#minecraft:coals",
+    "3": "minecraft:skeleton_skull"
+  },
+  "result": {
+    "id": "minecraft:wither_skeleton_skull",
+    "count": 1
+  },
+  "show_notification": true
+}

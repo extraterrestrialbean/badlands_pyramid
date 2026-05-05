@@ -1,0 +1,95 @@
+{
+    "type": "minecraft:chest",
+    "pools": [
+      {
+        "rolls": 3,
+        "bonus_rolls": 1.5,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:bone",
+            "weight": 3
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:coal",
+            "weight": 3
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:gold_ingot",
+            "weight": 1
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:obsidian",
+            "weight": 2
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:fire_charge",
+            "weight": 1
+          }
+        ],
+        "functions": [
+          {
+            "function": "minecraft:set_count",
+            "count": {
+              "type": "minecraft:uniform",
+              "min": 1,
+              "max": 13
+            }
+          }
+        ]
+      },
+      {
+        "rolls": 1,
+        "bonus_rolls": 0.5,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:golden_boots",
+            "functions": [
+              {
+                "function": "minecraft:set_enchantments",
+                "enchantments": {
+                  "fire_protection": {
+                    "type": "minecraft:uniform",
+                    "min": 0,
+                    "max": 2
+                  },
+                  "feather_falling": {
+                    "type": "minecraft:uniform",
+                    "min": 0,
+                    "max": 3
+                  }
+                }
+              },
+              {
+                "function": "minecraft:set_damage",
+                "damage": {
+                  "type": "minecraft:uniform",
+                  "min": 0.2,
+                  "max": 0.85
+                }
+              }
+            ]
+          },
+          {
+            "type": "item",
+            "name": "diamond",
+            "functions": [
+                {
+                    "function": "set_count",
+                    "count": {
+                        "type": "uniform",
+                        "min": 2,
+                        "max": 6
+                    }
+                }
+            ]
+          }
+        ]
+      }
+    ]
+  }

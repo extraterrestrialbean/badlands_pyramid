@@ -1,0 +1,16 @@
+{
+  "name": "badlandspyramid:badlands_pyramid_start",
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 1,
+      "element": {
+        "location": "badlandspyramid:badlands_pyramid/pyramid",
+        "processors": "minecraft:empty",
+        "override_liquid_settings": "ignore_waterlogging",
+		"projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    }
+  ]
+}

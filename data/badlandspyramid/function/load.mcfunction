@@ -1,0 +1,1 @@
+tellraw @a {text: "The Badlands Pyramid datapack has loaded.", color: "gold"}

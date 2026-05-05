@@ -1,0 +1,297 @@
+{
+  "name": "badlandspyramid:badlands_pyramid",
+  "fallback": "badlandspyramid:badlands_pyramid_dead_end",
+  "elements": [
+    {
+      "weight": 1,
+      "element": {
+        "location": "badlandspyramid:badlands_pyramid/entrance1",
+        "processors": "minecraft:empty",
+        "override_liquid_settings": "ignore_waterlogging",
+		"projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "badlandspyramid:badlands_pyramid/entrance2",
+        "processors": "minecraft:empty",
+        "override_liquid_settings": "ignore_waterlogging",
+		"projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "badlandspyramid:badlands_pyramid/altar",
+        "processors": "minecraft:empty",
+        "override_liquid_settings": "ignore_waterlogging",
+		"projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "badlandspyramid:badlands_pyramid/hall1",
+        "processors": "minecraft:empty",
+        "override_liquid_settings": "ignore_waterlogging",
+		"projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "badlandspyramid:badlands_pyramid/hall2",
+        "processors": "minecraft:empty",
+        "override_liquid_settings": "ignore_waterlogging",
+		"projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "badlandspyramid:badlands_pyramid/hall3",
+        "processors": "minecraft:empty",
+        "override_liquid_settings": "ignore_waterlogging",
+		"projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "badlandspyramid:badlands_pyramid/chest_altar",
+        "processors": "minecraft:empty",
+        "override_liquid_settings": "ignore_waterlogging",
+		"projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "badlandspyramid:badlands_pyramid/crafting_table",
+        "processors": "minecraft:empty",
+        "override_liquid_settings": "ignore_waterlogging",
+		"projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "badlandspyramid:badlands_pyramid/hall4",
+        "processors": "minecraft:empty",
+        "override_liquid_settings": "ignore_waterlogging",
+		"projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "badlandspyramid:badlands_pyramid/tnt_trap1",
+        "processors": "minecraft:empty",
+        "override_liquid_settings": "ignore_waterlogging",
+		"projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "badlandspyramid:badlands_pyramid/magma_pit_trap1",
+        "processors": "minecraft:empty",
+        "override_liquid_settings": "ignore_waterlogging",
+		"projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "badlandspyramid:badlands_pyramid/magma_floor_trap1",
+        "processors": "minecraft:empty",
+        "override_liquid_settings": "ignore_waterlogging",
+		"projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "badlandspyramid:badlands_pyramid/husk_tripwire_trap1",
+        "processors": "minecraft:empty",
+        "override_liquid_settings": "ignore_waterlogging",
+		"projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "badlandspyramid:badlands_pyramid/chest_altar_alt",
+        "processors": "minecraft:empty",
+        "override_liquid_settings": "ignore_waterlogging",
+		"projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "badlandspyramid:badlands_pyramid/burn_pot",
+        "processors": "minecraft:empty",
+        "override_liquid_settings": "ignore_waterlogging",
+		"projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "badlandspyramid:badlands_pyramid/friend_pot",
+        "processors": "minecraft:empty",
+        "override_liquid_settings": "ignore_waterlogging",
+		"projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "badlandspyramid:badlands_pyramid/soul_sand",
+        "processors": "minecraft:empty",
+        "override_liquid_settings": "ignore_waterlogging",
+		"projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "badlandspyramid:badlands_pyramid/cow_tripwire_trap1",
+        "processors": "minecraft:empty",
+        "override_liquid_settings": "ignore_waterlogging",
+		"projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "badlandspyramid:badlands_pyramid/wart_room1",
+        "processors": "minecraft:empty",
+        "override_liquid_settings": "ignore_waterlogging",
+		"projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "badlandspyramid:badlands_pyramid/stairwell1",
+        "processors": "minecraft:empty",
+        "override_liquid_settings": "ignore_waterlogging",
+		"projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "badlandspyramid:badlands_pyramid/stairwell2",
+        "processors": "minecraft:empty",
+        "override_liquid_settings": "ignore_waterlogging",
+		"projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "badlandspyramid:badlands_pyramid/portal_room1",
+        "processors": "minecraft:empty",
+        "override_liquid_settings": "ignore_waterlogging",
+		"projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "badlandspyramid:badlands_pyramid/hall5",
+        "processors": "minecraft:empty",
+        "override_liquid_settings": "ignore_waterlogging",
+		"projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "badlandspyramid:badlands_pyramid/portal_room2",
+        "processors": "minecraft:empty",
+        "override_liquid_settings": "ignore_waterlogging",
+		"projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "badlandspyramid:badlands_pyramid/magma_pit_trap2",
+        "processors": "minecraft:empty",
+        "override_liquid_settings": "ignore_waterlogging",
+		"projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "badlandspyramid:badlands_pyramid/spawner_room1",
+        "processors": "minecraft:empty",
+        "override_liquid_settings": "ignore_waterlogging",
+		"projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    }
+    ,
+    {
+      "weight": 1,
+      "element": {
+        "location": "badlandspyramid:badlands_pyramid/labratory_room1",
+        "processors": "minecraft:empty",
+        "override_liquid_settings": "ignore_waterlogging",
+		"projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "badlandspyramid:badlands_pyramid/labratory_room2",
+        "processors": "minecraft:empty",
+        "override_liquid_settings": "ignore_waterlogging",
+		"projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "badlandspyramid:badlands_pyramid/hall6",
+        "processors": "minecraft:empty",
+        "override_liquid_settings": "ignore_waterlogging",
+		"projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    }
+  ]
+}

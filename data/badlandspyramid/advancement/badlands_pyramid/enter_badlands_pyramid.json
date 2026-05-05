@@ -1,0 +1,45 @@
+{
+  "parent": "badlandspyramid:badlands_pyramid/root",
+  "criteria": {
+    "enter_badlands_pyramid": {
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "structures": "badlandspyramid:badlands_pyramid"
+              }
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:location"
+    }
+  },
+  "display": {
+    "description": {
+      "text": "Find a Badlands Pyramid"
+    },
+    "icon": {
+      "count": 1,
+      "id": "minecraft:tnt"
+    },
+    "title": {
+      "text": "Tomb Raider"
+    },
+    "frame": "task"
+  },
+  "requirements": [
+    [
+      "enter_badlands_pyramid"
+    ]
+  ],
+  "sends_telemetry_event": true,
+  "rewards": {
+    "recipes": [
+      "minecraft:custom/wither_skeleton_skull_crafting"
+    ]
+  }
+}
