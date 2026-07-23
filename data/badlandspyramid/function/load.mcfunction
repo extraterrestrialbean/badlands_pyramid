@@ -1,1 +1,1 @@
-tellraw @a {text: "The Badlands Pyramid datapack has loaded.", color: "gold"}
+#stuff that runs on world load
