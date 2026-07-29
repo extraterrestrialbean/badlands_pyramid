@@ -10,7 +10,6 @@
             "predicate": {
               "entity_type": "minecraft:cow",
               "nbt": "{Tags: [\"Hell_Bovine\"]}"
-              
             }
           }
         ]
