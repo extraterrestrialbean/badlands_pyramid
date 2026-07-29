@@ -215,6 +215,16 @@
     {
       "weight": 1,
       "element": {
+        "location": "badlandspyramid:badlands_pyramid/stairwell3",
+        "processors": "minecraft:empty",
+        "override_liquid_settings": "ignore_waterlogging",
+		"projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
         "location": "badlandspyramid:badlands_pyramid/portal_room1",
         "processors": "minecraft:empty",
         "override_liquid_settings": "ignore_waterlogging",
